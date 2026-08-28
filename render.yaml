@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: shrink-url-shortener
+    env: node
+    plan: free
+    buildCommand: npm install && npm run client:install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: DATABASE_URL
+        sync: false # User will provide this in the UI
+      - key: JWT_SECRET
+        sync: false # User will provide this in the UI
