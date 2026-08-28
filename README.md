@@ -5,8 +5,13 @@ A complete, end-to-end URL shortening service featuring multi-user accounts, cus
 ---
 
 ## 🚀 Live Demo & Repository
-- **Live Application URL:** [Will be updated after deployment]
-- **GitHub Repository:** [Will be updated after deployment]
+- **GitHub Repository:** [srinivasan31103/url-expire](https://github.com/srinivasan31103/url-expire)
+- **Live Application URL:** (Once you deploy to Render, paste the URL here)
+
+### One-Click Deployment
+To deploy this project directly to Render, click the button below:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/srinivasan31103/url-expire)
 
 ---
 
