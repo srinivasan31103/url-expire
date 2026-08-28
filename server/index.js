@@ -52,7 +52,7 @@ async function startServer() {
         app.use('/', redirectRouter);
 
         // Fallback for React routing (serves single page app index.html)
-        app.get('*', (req, res) => {
+        app.get(/.*/, (req, res) => {
             // Check if the request is not for API before serving React
             if (!req.path.startsWith('/api/')) {
                 res.sendFile(path.join(__dirname, '../client/dist/index.html'));

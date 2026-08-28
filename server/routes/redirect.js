@@ -78,7 +78,7 @@ function serveErrorPage(res, title, message, status) {
  * Route handler to redirect from short URL to original URL
  * Regex matches exactly 4 characters from the custom character set
  */
-router.get('/:code([abcdefghjkmnpqrstuvwxyz23456789]{4})', async (req, res) => {
+router.get(/^\/(?<code>[abcdefghjkmnpqrstuvwxyz23456789]{4})$/, async (req, res) => {
     const { code } = req.params;
 
     try {
