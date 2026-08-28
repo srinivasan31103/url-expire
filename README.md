@@ -6,7 +6,7 @@ A complete, end-to-end URL shortening service featuring multi-user accounts, cus
 
 ## 🚀 Live Demo & Repository
 - **GitHub Repository:** [srinivasan31103/url-expire](https://github.com/srinivasan31103/url-expire)
-- **Live Application URL:** (Once you deploy to Render, paste the URL here)
+- **Live Application URL:** [https://url-expire.onrender.com](https://url-expire.onrender.com)
 
 ### One-Click Deployment
 To deploy this project directly to Render, click the button below:
